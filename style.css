@@ -1,0 +1,508 @@
+@font-face {
+    font-family: 'Meows';
+    scr: url(fonts/Meows.ttf);
+}
+
+@font-face {
+    font-family: 'lato';
+    scr: url(fonts/Lato-Regular.ttf);
+}
+
+h1{
+    
+    text-align: center;
+    text-shadow: 2px 2px #e29ab8;
+    font-family: Meows;
+}
+header{
+    
+    background: #fff0f0;
+    height: 20vh;
+  
+}
+
+.ff{
+    font-weight: 200;
+}
+
+.jeden{
+    float: left;
+    width: 400px;
+    height: 350px;
+    background-image: url(img/kot.png);
+    background-size: cover;
+    background-position: center;
+    margin: 30px;
+    padding: 30px;
+
+}
+
+.dwa{
+    float: left;
+    width: 400px;
+    height: 350px;
+    background-image: url(img/pies.png);
+    background-size: cover;
+    background-position: center;
+    margin: 30px;
+    padding: 30px;
+}
+
+.trzy{
+    float: left;
+    width: 400px;
+    height: 350px;
+    background-image: url(img/krolik.png);
+    background-size: cover;
+    background-position: center;
+    margin: 30px;
+    padding: 30px;
+}
+.tlo{
+    display: block;
+    font-size: 20px;
+    text-align: center;
+    background-color: white;
+    color:rgb(0, 0, 0);
+    font-size: 25px;
+}
+header h1{
+    font-size: 6rem;
+    text-transform: uppercase;
+    color: rgb(0, 0, 0);
+    line-height: 25vh;
+
+}
+*{
+    position: relative;
+    padding: 0;
+    margin: 0;
+    width: auto;
+    height: auto;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+body{
+    font-family: lato, sans-serif;
+    height: 100vh;
+}
+main{
+    /* width: 100%; */
+    height: 100%;
+}
+nav{
+    
+    background:pink;
+    height: 70px;
+    width: 100%;
+}
+.kontakt{
+   
+    font-size: 1.2em;
+    display: block;
+    float: right;
+    text-align: center;
+    background-color: pink;
+    padding: 10px 15px;
+    margin: 0px 1px 1px 0px;
+    line-height: 1.5em;
+}
+
+label.logo{
+    color: white;
+    font-size: 35px;
+}
+
+li{
+    width: 15%;
+    left:-100px;
+}
+
+li a {
+    
+    float: left;
+    text-align: center;
+    font-size: 1.3em;
+    width: 130px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    padding: 10px 10px;
+    margin: 0px 1px 1px 0px;
+    line-height: 1.5em;
+
+    }
+
+    li a:hover {
+        
+        color: rgb(54, 0, 30);
+        background-color: rgb(255, 212, 220);
+        border: 1px solid;
+        }
+
+    ul {
+    text-align: center; 
+    width: 100%;
+    height: 20px; 
+    
+
+    }
+
+    nav ul li{
+        display: inline-block;
+    }
+
+    i{
+        padding: 2px;
+    }
+
+.ko{
+ 
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+    
+}
+
+.w{
+  
+    margin: 10px;
+    padding: 10px;
+    font-size: 20px;
+    background-position: center;
+}
+
+.tt{
+   
+    float: left;
+    height: 200px;
+    width: 200px;
+    padding: 10px;
+}
+h2{
+
+    text-align: center;
+    margin: 12%;
+    text-transform: uppercase;
+    font-size: 2rem;
+   
+}
+.sielo{
+ 
+    float: left;
+    font-size: 20px;
+    background-color: pink;
+    width: 30%;
+    height: 400px;
+    margin: 30px;
+    margin-top: -150px;
+}
+.sieloo{
+ 
+    float: left;
+    font-size: 20px;
+    background-color: pink;
+    width: 30%;
+    height: 400px;
+    margin: 30px;
+    
+}
+.a{
+    text-align: center;
+    margin: 10px;
+    font-size: 30px;
+}
+.b{
+    text-align: center;
+    margin: 40px;
+    font-size: 20px;
+}
+footer {
+    text-align: center;
+    float: right;
+    left:0px;
+    bottom:0px;
+    height:60px;
+    width:100%;
+    background-size: cover;
+    background-position: center;
+    background:rgb(255, 220, 228);
+ }
+
+.jezu{
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+    line-height: 60px;
+
+}
+
+ .sekcja1{
+     font-weight: 100;
+ }
+ .sekcja2{
+    font-weight: 200;
+}
+section:nth-child(2){
+    background-color: #fff0f0;
+}
+
+.ikonka{
+    
+    float: right;
+    font-size: 50px;
+}
+footer a{
+    color:rgb(54, 0, 30);
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 1367px) and (min-width: 1025px) {
+    header h1{
+        font-size: 60px;
+    }
+
+    .sekcja2 div{
+        width: 20%;
+    }
+
+    .sielo{
+        width: 25%;
+        float: left;
+        height: 600px;
+        left: 5%;
+    }
+
+    .sieloo{
+        width: 25%;
+        float: left;
+        height: 600px;
+        left: 5%;
+    }
+}
+
+@media only screen and (max-width: 1350px){
+main{
+    height:  100%;
+    width: 100vh;
+}
+
+header h1{
+    font-size: 5px;
+}
+
+header{
+    
+    background: #fff0f0;
+    height: 30vh;
+    width: 100vh;
+  
+}
+header h1{
+    font-size: 4rem;
+    text-transform: uppercase;
+    color: rgb(0, 0, 0);
+    line-height: 25vh;
+}
+
+nav{
+    
+    background:pink;
+    height: 70px;
+    width: 100vh;
+}
+
+menu ul li {
+    text-align: center;
+    display:inline-block;
+}
+ul{
+    height: 500px;
+}
+
+section{
+    width:100%;
+    height: 600px;
+}
+
+.sielo {
+    margin:22px;
+    padding:0px;
+}
+
+.sieloo {
+    margin:22px;
+    padding:0px;
+}
+
+.sekcja2 div{
+    width: 25%;
+    float: left;
+    height: 350px;
+}
+
+.sekcja2 .ko{
+    float: left;
+}
+
+.sekcja2 .w{
+    float: left;
+}
+
+.ko{
+    position: relative;
+    margin-bottom: 10px;
+    padding: 20px;
+    font-size: 30px;
+    width: 100vh;
+}
+
+div{
+    height: 50px;
+}
+
+.jeden{
+
+    float: left;
+    width: 200px;
+    height: 150px;
+    background-image: url(img/kot.png);
+    background-size: cover;
+    background-position: center;
+    padding: 30px;
+
+}
+
+.dwa{
+    float: left;
+    width: 200px;
+    height: 150px;
+    background-image: url(img/pies.png);
+    background-size: cover;
+    background-position: center;
+    margin: 30px;
+    padding: 30px;
+}
+
+.trzy{
+    float: left;
+    width: 200px;
+    height: 150px;
+    background-image: url(img/krolik.png);
+    background-size: cover;
+    background-position: center;
+    margin: 30px;
+    padding: 30px;
+}
+
+footer {
+    position: relative;
+    width: 200%;
+    left: 350px;
+}
+
+footer p{
+    font-size: 25px;
+}
+
+}
+@media only screen and (max-width: 550px) {
+
+    main{
+        height:  100%;
+        width: 100vh;
+    }
+    
+   nav{
+       width: 100%;
+   }
+    header{
+        height: 250px;
+        width: 100%;
+        background-size: cover;
+        background-position: center;
+        position: relative;
+        margin-bottom:10px ;
+        background-repeat: no-repeat;/*dodano do cz.3*/
+        
+    }
+    header h1{
+        font-size: 1.5em;
+        text-transform: uppercase;
+        color: black;
+        text-align: center;
+        line-height: 10vh;
+        background-color: rgba(0,0,0,0);
+        float: center;
+        position: absolute;
+        margin-top: 150px;
+        margin-left: 30px;
+    }
+
+    nav{
+        width: 100%;
+        height: 350px;
+    }
+
+
+
+     .tt{
+        width: 50px;
+        height: 50px;
+        position: absolute;
+        margin:0px;
+        padding: 0px;
+    }
+
+    nav ul li{ 
+        margin-right: 100%;
+        margin-left: 100px;
+        width: 0%;
+        
+    }
+
+
+    .sekcja2 div{
+        position: relative;
+        width:100%;
+        left: 0px;
+    }
+
+    section{
+        height: 0px;
+    }
+
+    .ko{
+        width: 100%;
+        height: 30vh;;
+    }
+
+    .sielo{
+        width: 50%;
+        height: 700px;
+    }
+
+    .sieloo{
+        width: 50%;
+        height: 700px;
+    }
+
+    .sekcja2{
+        width: 50%;
+    }
+
+    footer{
+        width: 100%;
+        height: 130px;
+        top:200px;
+        left: 0px;
+    }
+
+    h2{
+        width: 100%;
+        height: 130px;
+        top:1200px;
+        left: -350px;
+    }
+   
+}
